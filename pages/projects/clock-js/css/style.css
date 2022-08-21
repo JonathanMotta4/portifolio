@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dodgerblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  background-color: #f5f5f5;
+  margin: 10px auto;
+  border-radius: 15px;
+  padding: 20%;
+  background: #ffffff36;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+}
+
+/* Links do portifolio */
+button {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 1.3em;
+  background: #f5f5f5;
+  border: 2px solid #044563;
+  transition-duration: 0.6s;
+}
+button:hover,
+button:hover > a {
+  border-color: #310686;
+  color: #310686;
+}
+button:active,
+button:active > a {
+  border-color: #1b093d;
+  color: #1b093d;
+}
+.nav {
+  width: fit-content;
+}
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #044563;
+}
