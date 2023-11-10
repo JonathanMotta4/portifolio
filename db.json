@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://placehold.co/140x180",
+      "name": "product",
+
+      "price": 846.78
+    },
+    {
+      "id": 2,
+      "image": "https://placehold.co/140x180",
+      "name": "promised",
+
+      "price": 970.14
+    },
+    {
+      "id": 3,
+      "image": "https://placehold.co/140x180",
+      "name": "past",
+
+      "price": 466.34
+    },
+    {
+      "id": 4,
+      "image": "https://placehold.co/140x180",
+      "name": "reunion",
+
+      "price": 101.14
+    },
+    {
+      "id": 5,
+      "image": "https://placehold.co/140x180",
+      "name": "driving",
+
+      "price": 894.36
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "image": "https://placehold.co/140x180",
+      "name": "product",
+      "qtde": 99,
+      "price": 846.78
+    }
+  ]
+}

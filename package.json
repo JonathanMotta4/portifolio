@@ -1,0 +1,31 @@
+{
+  "name": "portifolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^2.40.0",
+    "json-server": "^0.17.4",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss-animated": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4"
+  }
+}
