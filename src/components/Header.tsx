@@ -16,7 +16,9 @@ export default function Header() {
             <Link href={'/'}>Home</Link>
           </li>
           <li className="hover:text-violet-700 hover:underline ">
-            <Link href={'/projetos'}>Projetos</Link>
+            <a target="_blank" href={'https://github.com/jonathanMotta4'}>
+              Projetos
+            </a>
           </li>
         </ul>
       </nav>
